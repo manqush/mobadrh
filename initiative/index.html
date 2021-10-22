@@ -1,0 +1,701 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>initiative</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+
+<link href="css/style-header-body.css" type="text/css" rel="stylesheet" />
+<link href="css/initiative.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="css/edbox.css" />
+<link rel="stylesheet" type="text/css" href="css/youtube.css" />
+
+
+<script src="js/newsTicker.js"></script>
+<script src="js/multislider.js"></script>
+<script src="js/jquery.edbox.js"></script>
+<script type="text/javascript" src="js/youtube.js"></script>
+
+
+
+
+
+</head>
+
+<body>
+  <header>
+
+  <div class="all-left">
+ 
+      <div class="all-width"> 
+        <div class="logo-right">
+    <div class="logo-position">
+   <a href="#"><img src="img/logo.png"/></a>
+    </div> 
+  </div>
+  
+        <div class="blok-top">
+         
+         <div class='bl-t-1'>
+            <nav>
+              <ul>
+                <li class='home-nav'><a href=""><span><i class="fa fa-home"></i></span>الرئيسية</a></li>
+                <li><a href=""><span><i class="fa fa-users"></i></span>من نحن</a></li>
+                <li><a href=""><span><i class="fa fa-pie-chart"></i></span>خدماتنا</a></li>
+                <li><a href=""><span><i class="fa fa-th-large"></i></span>الاخبار</a> 
+                   <ul>
+                      <li><a href="#">أخر الاخبار</a></li>
+                      <li><a href="#">مقالات</a></li>
+                      <li><a href="#">تقارير</a></li>
+                   </ul> 
+    
+                 </li>
+                <li><a href=""><span><i class="fa fa-envelope"></i></span>الرئيسية</a></li>
+
+              </ul>
+            </nav>         
+         </div>
+
+         <div class='bl-t-2'>
+            
+            <div id="recherche">
+             <!-- recherche -->
+               <div class="shea">
+                <form action="/search" id="searchthis" method="get" style="display: inline;">
+                <input id="b-query" maxlength="250" name="q" size="29" type="text"/>
+                <input id="b-searchbtn" type="submit" value=""/>
+                <label for="b-searchbtn" class="heaw fa fa-search"></label>
+                </form>
+               </div>
+            <!-- recherche -->
+            </div>
+            
+         </div>
+         
+         <div class='bl-t-3'>
+           <button class="bl-botm-1">التسجيل</button>
+           <button class="bl-botm-2">الدخول</button>
+         </div>
+         
+      </div>
+      </div>
+            
+      <div class="blok-cantr">
+         <div class="all-grw"> 
+          <h2>احدث الاخبار</h2>
+        
+   <div id="newsData" class="row newsCss"></div>
+<ul id="newsList">
+			<li class="news-item" ><a href="#">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من </a></li>
+			<li class="news-item" ><a href="#">حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى</a></li>
+			<li class="news-item" ><a href="#">ذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد</a></li>
+	</ul>
+	<div class="news-bo" >
+    <input type="button" id="prevDiv" value="Prev" class="btn btn-primary" style="display:none"> 
+    <input type="button" id="nextDiv" value="Next" class="btn btn-primary" style="display:none">
+         <label for="nextDiv" class="nextDiv fa fa-toggle-right"></label>
+    <label for="prevDiv" class="prevDiv fa fa-toggle-left"></label>   
+    </div>
+
+</div>
+     
+        
+         </div>           
+      </div>
+      
+      
+      <div class="blok-down">
+         <div class="all-grw"> 
+            <nav>
+              <ul>
+                <li><a href="#">مبادرات مجتمعية</a></li>
+                <li><a href="#">حملات توعوية</a></li>
+                <li><a href="#">مسؤالية اجتماعية</a></li>
+              </ul>
+            </nav> 
+            
+         </div>     
+       </div>
+        
+        </div>
+      </div>
+      
+  </div>
+ <div class="clear"></div> 
+  </header>
+  
+<div class="all-body-initiative">
+
+   <div class="post-initiative">
+   
+    <div class="pi-box1 pibx">  
+      
+      <div class="pi-tetle pi-t1">
+        <h1>مبادرة الله يعطيك خيرها</h1>
+      </div>
+      
+      <div class="pi-input">
+         <div class="pi-in-img">
+           <img src="img/sq.png" />
+         </div>
+         
+         <div class="pi-in-describe">
+          <div><b>الجهة : </b><span>جمعية الأطفال المعوقين</span></div>
+          <div><b>تصنيف الجهة المنفذة :</b><span>( جمعية خيرية )</span></div>
+          <div><b>تنطلق في :</b><span>2017/00/1</span></div>
+          <div><b>تنتهي في :</b><span>2017/2/00</span></div>
+          <div><b>نوعها :</b><span>( توعوية )</span></div>
+         </div>
+         
+         <div class="pi-in-maps-google">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d927764.3560146247!2d47.38303086571118!3d24.72415026189897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2z2KfZhNix2YrYp9i2INin2YTYs9i52YjYr9mK2Kk!5e0!3m2!1sar!2seg!4v1504679293695" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+         </div>
+         
+      </div>
+      
+      <div class="pi-post">
+      
+          <div><b>التعريف :</b></div>
+          <div><p>مبادرة توعوية عن السلامة المرورية اطلقها امير المنطقة تنفذها جمعية الاطفال المعوقين بالتعاون مع الادارة العامة للمرور تنفذ
+العديد من البرامج و العاليات و تستهدف شريحة الشباب و السائقين .</p></div>
+        
+          <br>
+        
+          <div><b>الأهداف :</b></div>
+            <div><p>رفع التوعية في المجتمع بما يخص السياقة الامنة.</p></div>
+            <div><p>
+خفض الحوادث الناتجة عن القيادة المتهورة.</p></div>
+            <div><p>لفت نظر المجتمع الى حالات الاعاقة الناتجه عن الحوادث</p></div>
+            <div><p>...الخ</p></div>
+            
+            <br>
+
+          <div><b>النتائج و الأثر :</b></div>
+            <div><p>تم توزيع أكثر من 200.000 بروشور.</p></div>
+            <div><p>تم تنفيذ عدد 20 فعالية ما بين رياضية وطنية خيرية.</p></div>
+            <div><p>تم أنتاج برامج تلفزيونية حصدت شعبية كبيرة.</p></div>
+            <div><p>ساهمت في خفض الحوادث حسب التقرير الاخير الصادر من وزارة الداخلية.</p></div>
+           
+             <div class="i-labels">
+              <h4><i class="fa fa-tags"></i>اوسمة</h4>
+              <a href="#">مواقع</a>
+              <a href="#">برامج</a>
+              <a href="#">العاب</a>             
+             </div>
+          </div> 
+             
+    </div> 
+    
+    <div class="pi-box2 pibx">  
+      
+      
+      <div class="pi-tetle pi-t2">
+        <h1>مبادرة الله يعطيك خيرها</h1>
+      </div>
+      
+      <div class="pi-bx-Content">
+      
+         <div class="pi-bx-Conimg img">
+         
+         <a class="link-image" href="#" style="background: url('img/2.jpg');background-size: 100%;" data-box-image="img/2.jpg">
+            <div><i class="fa fa-image"></i></div>
+         </a>
+         
+         </div>
+         
+         <div class="pi-bx-Conimg vidoe">
+         
+         <span id="mList" class="gw">
+         <a  href="href="https://www.youtube.com/watch?v=Rtlzq_uKlBQ"" style="background: url('img/1.jpg');background-size: 100%;" >
+            <div><i class="fa fa-play-circle-o"></i></div>
+         </a>
+         </span>
+         
+           <div id="mPlayer">
+           <div> </div>
+           </div>
+           
+         </div>
+         
+         <div class="pi-bx-Conimg img">
+         
+         <a class="link-image" href="#" style="background: url('img/2.jpg');background-size: 100%;" data-box-image="img/2.jpg">
+            <div><i class="fa fa-image"></i></div>
+         </a>
+         
+         </div>
+         
+
+         <div class="pi-bx-Conimg img">
+         
+         <a class="link-image" href="#" style="background: url('img/2.jpg');background-size: 100%;" data-box-image="img/2.jpg">
+            <div><i class="fa fa-image"></i></div>
+         </a>
+         
+         </div>
+         
+         <div class="pi-bx-Conimg vidoe">
+         
+         <span id="mList" class="gw">
+         <a  href="href="https://www.youtube.com/watch?v=Rtlzq_uKlBQ"" style="background: url('img/1.jpg');background-size: 100%;" >
+            <div><i class="fa fa-play-circle-o"></i></div>
+         </a>
+         </span>
+         
+           <div id="mPlayer">
+           <div> </div>
+           </div>
+           
+         </div>
+         
+         <div class="pi-bx-Conimg img">
+         
+         <a class="link-image" href="#" style="background: url('img/2.jpg');background-size: 100%;" data-box-image="img/2.jpg">
+            <div><i class="fa fa-image"></i></div>
+         </a>
+         
+         </div>  
+         
+         
+
+         <div class="pi-bx-Conimg img">
+         
+         <a class="link-image" href="#" style="background: url('img/2.jpg');background-size: 100%;" data-box-image="img/2.jpg">
+            <div><i class="fa fa-image"></i></div>
+         </a>
+         
+         </div>
+         
+         <div class="pi-bx-Conimg vidoe">
+         
+         <span id="mList" class="gw">
+         <a  href="href="https://www.youtube.com/watch?v=Rtlzq_uKlBQ"" style="background: url('img/1.jpg');background-size: 100%;" >
+            <div><i class="fa fa-play-circle-o"></i></div>
+         </a>
+         </span>
+         
+           <div id="mPlayer">
+           <div> </div>
+           </div>
+           
+         </div>
+         
+         <div class="pi-bx-Conimg img">
+         
+         <a class="link-image" href="#" style="background: url('img/2.jpg');background-size: 100%;" data-box-image="img/2.jpg">
+            <div><i class="fa fa-image"></i></div>
+         </a>
+         
+         </div>  
+         
+         
+
+         <div class="pi-bx-Conimg img">
+         
+         <a class="link-image" href="#" style="background: url('img/2.jpg');background-size: 100%;" data-box-image="img/2.jpg">
+            <div><i class="fa fa-image"></i></div>
+         </a>
+         
+         </div>
+         
+         <div class="pi-bx-Conimg vidoe">
+         
+         <span id="mList" class="gw">
+         <a  href="href="https://www.youtube.com/watch?v=Rtlzq_uKlBQ"" style="background: url('img/1.jpg');background-size: 100%;" >
+            <div><i class="fa fa-play-circle-o"></i></div>
+         </a>
+         </span>
+         
+           <div id="mPlayer">
+           <div> </div>
+           </div>
+           
+         </div>
+         
+         <div class="pi-bx-Conimg img">
+         
+         <a class="link-image" href="#" style="background: url('img/2.jpg');background-size: 100%;" data-box-image="img/2.jpg">
+            <div><i class="fa fa-image"></i></div>
+         </a>
+         
+         </div>  
+         
+
+         <div class="pi-bx-Conimg img">
+         
+         <a class="link-image" href="#" style="background: url('img/2.jpg');background-size: 100%;" data-box-image="img/2.jpg">
+            <div><i class="fa fa-image"></i></div>
+         </a>
+         
+         </div>
+         
+         <div class="pi-bx-Conimg vidoe">
+         
+         <span id="mList" class="gw">
+         <a  href="href="https://www.youtube.com/watch?v=Rtlzq_uKlBQ"" style="background: url('img/1.jpg');background-size: 100%;" >
+            <div><i class="fa fa-play-circle-o"></i></div>
+         </a>
+         </span>
+         
+           <div id="mPlayer">
+           <div> </div>
+           </div>
+           
+         </div>
+         
+         <div class="pi-bx-Conimg img">
+         
+         <a class="link-image" href="#" style="background: url('img/2.jpg');background-size: 100%;" data-box-image="img/2.jpg">
+            <div><i class="fa fa-image"></i></div>
+         </a>
+         
+         </div>  
+         
+                                               
+                           
+      </div>
+      
+
+    </div>
+    
+    <div class="pi-box3 pibx">
+    
+      <div class="pi3-tkanm">
+        <div class="slrating">
+        
+                <ul class="pi-rating">
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-star-half"><i class="fa fa-star-half-empty"></i></li>      
+                <div class="clear"></div>
+                </ul>
+                
+         </div>
+      </div>
+      
+      <div class="slrating-nember">
+        <span><span>44546</span><span>تقييم</span></span>
+      </div>
+      
+      <div class="pi3-botom">
+       <ul>
+        <li class="go-rating"><div class="fa fa-caret-up"></div>
+         <a >اضف تقييم</a>
+           <div class="pi-add-rating">
+         <fieldset class="rating">
+    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+</fieldset>
+           </div>
+        </li>
+        <li class="andm">
+          <div class="fa fa-caret-up"></div>
+          <a class="andm-a" >انـضـم</a>
+          <div class="andm-box">
+           <a href="#">متظوع</a>
+           <a href="#">مشارك</a>           
+          </div>
+        </li>
+        <li><a href="#">حمل مشاركتك</a></li>
+       </ul>
+      </div>
+            
+   </div>
+   
+   <div class="pi-box4 pibx">
+
+      <div  id='comments' class="comments">
+            <h4 class="com-h4">التعليقات</h4>
+<ul class="comment-list">
+     <li id="comment-22045" class="comment even thread-even depth-1">
+     
+       <div class="comment-img">
+        <img src="https://goo.gl/AvXayN" alt="" srcset="https://goo.gl/y3RbSU" class="avatar avatar-60 photo" height="60" width="60" data-lazy-loaded="true" style="display: block;">
+       </div>  
+        
+       <article class="comment-body">
+         <div class="comment-meta">
+           <div class="comment-author vcard">
+
+           
+            <noscript></noscript>
+             <span class="says"><i class="fa fa-pencil-square"></i></span>
+              <b class="fn"><a href="http://www.fdfdah.com" rel="external nofollow" class="url">فضفضة العرب</a></b>:</div><div class="comment-metadata">
+               <a href="#"> <time><i class="fa fa-clock-o"></i>3/8/2017</time> </a>
+           </div>
+         </div>
+  <div class="comment-content">
+    <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+  </div>
+  <div class="reply"><a rel="nofollow" >رد</a></div>
+  </article>
+  
+     <ul class="comment-Reply">
+     <li id="comment-22045" class="comment even thread-even depth-1">
+     
+       <div class="comment-img">
+        <img src="https://goo.gl/AvXayN" alt="" srcset="https://goo.gl/y3RbSU" class="avatar avatar-60 photo" height="60" width="60" data-lazy-loaded="true" style="display: block;">
+       </div>  
+        
+       <article class="comment-body">
+         <div class="comment-meta">
+           <div class="comment-author vcard">
+
+           
+            <noscript></noscript>
+             <span class="says"><i class="fa fa-pencil-square"></i></span>
+              <b class="fn"><a href="http://www.fdfdah.com" rel="external nofollow" class="url">فضفضة العرب</a></b>:</div><div class="comment-metadata">
+               <a href="#"> <time><i class="fa fa-clock-o"></i>3/8/2017</time> </a>
+           </div>
+         </div>
+  <div class="comment-content">
+    <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+  </div>
+  <div class="reply"><a rel="nofollow" >رد</a></div>
+  </article>
+    </li>
+   </ul>
+  
+    </li>
+   </ul>
+
+<ul class="comment-list">
+     <li id="comment-22045" class="comment even thread-even depth-1">
+     
+       <div class="comment-img">
+        <img src="https://goo.gl/AvXayN" alt="" srcset="https://goo.gl/y3RbSU" class="avatar avatar-60 photo" height="60" width="60" data-lazy-loaded="true" style="display: block;">
+       </div>  
+        
+       <article class="comment-body">
+         <div class="comment-meta">
+           <div class="comment-author vcard">
+
+           
+            <noscript></noscript>
+             <span class="says"><i class="fa fa-pencil-square"></i></span>
+              <b class="fn"><a href="http://www.fdfdah.com" rel="external nofollow" class="url">فضفضة العرب</a></b>:</div><div class="comment-metadata">
+               <a href="#"> <time><i class="fa fa-clock-o"></i>3/8/2017</time> </a>
+           </div>
+         </div>
+  <div class="comment-content">
+    <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+  </div>
+  <div class="reply"><a rel="nofollow" >رد</a></div>
+  </article>
+     </li>
+   </ul>
+
+
+<ul class="comment-list">
+     <li id="comment-22045" class="comment even thread-even depth-1">
+     
+       <div class="comment-img">
+        <img src="https://goo.gl/AvXayN" alt="" srcset="https://goo.gl/y3RbSU" class="avatar avatar-60 photo" height="60" width="60" data-lazy-loaded="true" style="display: block;">
+       </div>  
+        
+       <article class="comment-body">
+         <div class="comment-meta">
+           <div class="comment-author vcard">
+
+           
+            <noscript></noscript>
+             <span class="says"><i class="fa fa-pencil-square"></i></span>
+              <b class="fn"><a href="http://www.fdfdah.com" rel="external nofollow" class="url">فضفضة العرب</a></b>:</div><div class="comment-metadata">
+               <a href="#"> <time><i class="fa fa-clock-o"></i>3/8/2017</time> </a>
+           </div>
+         </div>
+  <div class="comment-content">
+    <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+  </div>
+  <div class="reply"><a rel="nofollow" >رد</a></div>
+  </article>
+  
+    </li>
+   </ul>
+   
+            <h4 class="com-h42">تعليق جديد</h4>
+
+          <form class="comment-form2" >
+          
+          <p class="comment-form-comment"><textarea placeholder="اكتب التعليق هنا........"></textarea>
+          </p>
+          
+ <div class="comment-nowe"><a rel="nofollow" >ارســال</a></div>
+          
+         </form>
+         
+
+
+          
+          </div>      
+             
+   </div>
+   
+   </div>   
+   
+   <div class="sadbar-initiative">
+        <div class="sadbar-box">
+           <div class="sad-tetl si-tet1"><h2>مبادرات اخرى</h2></div>
+           
+           <div class="sadbar-content">
+             <div class="ul-sid-in">
+               <ul>
+                 <li><a href="#">مبادرة جمعية الأطفال المعوقين</a></li>
+                 <li><a href="#">مبادرة جمعية الأطفال المعوقين</a></li>
+                 <li><a href="#">مبادرة جمعية الأطفال المعوقين</a></li>
+                 <li><a href="#">مبادرة جمعية الأطفال المعوقين</a></li>
+                 <li><a href="#">مبادرة جمعية الأطفال المعوقين</a></li>
+                 <li><a href="#">مبادرة جمعية الأطفال المعوقين</a></li>
+                 <li><a href="#">مبادرة جمعية الأطفال المعوقين</a></li>
+                 <li><a href="#">مبادرة جمعية الأطفال المعوقين</a></li>
+               </ul>
+             </div>
+           </div>
+        </div>  
+        
+        
+        <div class="sadbar-box">
+           <div class="sad-tetl si-tet2"><h2>شارك المبادرة</h2></div>
+           
+           <div class="sadbar-content">
+           
+             <div class="copy-url">
+               <input onclick="this.focus(); this.select();" readonly type="text" value="https://cnmu.blogspot.com/2017/09/Blogger-Updates.html">
+             </div>
+             
+             <div class="sad-shark">
+                   <a class="fac" href="#"><i class="fa fa-facebook"></i></a>
+                   <a class="twi" href="#"><i class="fa fa-twitter"></i></a>
+                   <a class="goo" href="#"><i class="fa fa-google-plus"></i></a>
+                   <a class="inst" href="#"><i class="fa fa-instagram"></i></a>
+                   <a class="rss" href="#"><i class="fa fa-rss"></i></a>
+                   
+                   <div class="clear"></div>
+             </div>
+             
+           </div>
+        </div>  
+   </div>
+
+  
+ <div class="clear"></div>
+  
+</div>
+
+
+<footer>
+ <div class="footer-top">
+  <div class="all-footer-top">
+  
+  <div class="fo-right">
+    <div class="tabna">
+              <a class="fac" href="#"><i class="fa fa-facebook"></i></a>
+              <a class="twi" href="#"><i class="fa fa-twitter"></i></a>
+              <a class="goo" href="#"><i class="fa fa-google-plus"></i></a>
+              <a class="inst" href="#"><i class="fa fa-instagram"></i></a>
+              <a class="rss" href="#"><i class="fa fa-rss"></i></a>
+          </div>
+  </div>
+  
+  <div class="fo-left">
+           <ul>
+           <li><a href="#">سياسة النشر</a></li>
+           <li><a href="#">اتفاقية الاستخدام</a></li>
+           <li><a href="#">النشر البريدية</a></li>
+           <li><a href="#">اتصال بناء</a></li>
+           </ul>
+  </div>
+  
+  <div class="clear"></div>  
+  </div>  
+  <div class="clear"></div>  
+ </div>
+ <div class="footer-botom">
+ 
+   <div class="bo-bl-ri-logo">
+      <a href="#"><img src="img/logo-foter.png"></a>
+      <span>بوابة الكترونية متخصصة في اطلاق وتوثيق وتقييم المبادرات المجتمعية في المملكة العريبة السعودية</span>
+   </div>
+    
+ </div>
+  
+ 
+</footer>
+
+     <script>
+         $(document).ready(function() {           
+
+			
+      $(".go-rating a").click(function (){
+		$('.pi-add-rating').slideToggle();
+		$('.go-rating .fa-caret-up').slideToggle();
+        $('.andm-box').css('display','none');
+		$('.andm div.fa-caret-up').css('display','none');				
+		
+		
+		 });
+		 
+        $(".andm .andm-a").click(function (){
+		$('.andm-box').slideToggle();
+		$('.andm .fa-caret-up').slideToggle();
+        $('.pi-add-rating').css('display','none');
+		$('.go-rating .fa-caret-up').css('display','none');	
+		 });
+	
+
+
+ 		 });           
+    </script>  
+   
+    <script>
+        $(document).ready(function() {
+            
+            //URL
+            $('.link-url').edbox({
+                addClass: 'example-url',
+                width: 900
+            });
+            
+            //Image
+            $('.link-image').edbox({
+                addClass: 'example-image'
+            });
+            
+            //Success
+            $('.btn-success').edbox({ success: '<i><b>Success</b></i> request!' });
+
+            //Info
+            $('.btn-info').edbox({ info: 'Some text or &lt;html> info!' });
+
+            //Warning
+            $('.btn-warning').edbox({ warning: '<b>Warning</b>, <i>do not go ahead</i>!' });
+
+            //Danger
+            $('.btn-danger').edbox({ danger: 'Sorry,<br>unespected error!' });
+        });
+    </script>
+
+
+
+
+<script>
+$(function () {
+	$('#newsList').newsTicker();
+});
+</script>
+
+
+</body>
+</html>

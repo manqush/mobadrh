@@ -1,0 +1,547 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>mobadrh</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+
+<link href="css/style-header-body.css" type="text/css" rel="stylesheet" />
+<link href="css/mobadrh.css" type="text/css" rel="stylesheet" />
+
+
+
+<script src="js/newsTicker.js"></script>
+<script src="js/jquery.edbox.js"></script>
+
+
+
+
+
+</head>
+
+<body>
+  <header>
+
+  <div class="all-left">
+ 
+      <div class="all-width"> 
+        <div class="logo-right">
+    <div class="logo-position">
+   <a href="#"><img src="img/logo.png"/></a>
+    </div> 
+  </div>
+  
+        <div class="blok-top">
+         
+         <div class='bl-t-1'>
+            <nav>
+              <ul>
+                <li class='home-nav'><a href=""><span><i class="fa fa-home"></i></span>الرئيسية</a></li>
+                <li><a href=""><span><i class="fa fa-users"></i></span>من نحن</a></li>
+                <li><a href=""><span><i class="fa fa-pie-chart"></i></span>خدماتنا</a></li>
+                <li><a href=""><span><i class="fa fa-th-large"></i></span>الاخبار</a> 
+                   <ul>
+                      <li><a href="#">أخر الاخبار</a></li>
+                      <li><a href="#">مقالات</a></li>
+                      <li><a href="#">تقارير</a></li>
+                   </ul> 
+    
+                 </li>
+                <li><a href=""><span><i class="fa fa-envelope"></i></span>الرئيسية</a></li>
+
+              </ul>
+            </nav>         
+         </div>
+
+         <div class='bl-t-2'>
+            
+            <div id="recherche">
+             <!-- recherche -->
+               <div class="shea">
+                <form action="/search" id="searchthis" method="get" style="display: inline;">
+                <input id="b-query" maxlength="250" name="q" size="29" type="text"/>
+                <input id="b-searchbtn" type="submit" value=""/>
+                <label for="b-searchbtn" class="heaw fa fa-search"></label>
+                </form>
+               </div>
+            <!-- recherche -->
+            </div>
+            
+         </div>
+         
+         <div class='bl-t-3'>
+           <button class="bl-botm-1">التسجيل</button>
+           <button class="bl-botm-2">الدخول</button>
+         </div>
+         
+      </div>
+      </div>
+            
+      <div class="blok-cantr">
+         <div class="all-grw"> 
+          <h2>احدث الاخبار</h2>
+        
+   <div id="newsData" class="row newsCss"></div>
+<ul id="newsList">
+			<li class="news-item" ><a href="#">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من </a></li>
+			<li class="news-item" ><a href="#">حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى</a></li>
+			<li class="news-item" ><a href="#">ذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد</a></li>
+	</ul>
+	<div class="news-bo" >
+    <input type="button" id="prevDiv" value="Prev" class="btn btn-primary" style="display:none"> 
+    <input type="button" id="nextDiv" value="Next" class="btn btn-primary" style="display:none">
+         <label for="nextDiv" class="nextDiv fa fa-toggle-right"></label>
+    <label for="prevDiv" class="prevDiv fa fa-toggle-left"></label>   
+    </div>
+
+</div>
+     
+        
+         </div>           
+      </div>
+      
+      
+      <div class="blok-down">
+         <div class="all-grw"> 
+            <nav>
+              <ul>
+                <li><a href="#">مبادرات مجتمعية</a></li>
+                <li><a href="#">حملات توعوية</a></li>
+                <li><a href="#">مسؤالية اجتماعية</a></li>
+              </ul>
+            </nav> 
+            
+         </div>     
+       </div>
+        
+        </div>
+      </div>
+      
+  </div>
+ <div class="clear"></div> 
+  </header>
+  
+<div class="all-body-mobadrh">
+
+   <div class="post-mobadrh">
+         
+         <div class="post-mobadrh-box">
+            <div class="pm-img">
+             <img src="img/sq.png" />
+            </div>
+            
+            <div class="alhlh Finish">
+             <span>الحاله : منتهية</span>
+            </div>
+            
+            <div class="all-pm-t">
+             <h2><a href="#">مبادرة الله يعطيك خيرها</a></h2>
+             <div class="pm-st">
+              <div class="pm-star">
+              
+                <ul class="pi-rating">
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-star-half"><i class="fa fa-star-half-empty"></i></li>      
+                <div class="clear"></div>
+                </ul>
+                <span class="nabar-star">4850 تقييم</span>
+                
+              </div>
+              <div class="site">
+                <span>الموقع : (الرياض-جده)</span>
+              </div>
+             </div>
+             <div class="short-content">
+             <p>مبادرة توعوية عن السلامة المرورية اطلقها امير المنطقة تنفذها جمعية الاطفال المعوقين بالتعاون مع الادارة العامة للمرور تنفذ العديد من......<a href="#">اقراء المزيد</a></p>
+             </div>
+            </div>
+            
+            <div class="clear"></div>
+            
+            </div>
+         <div class="post-mobadrh-box">
+            <div class="pm-img">
+             <img src="img/sq.png" />
+            </div>
+            
+            <div class="alhlh ah-ariban">
+             <span>الحاله : قريباً</span>
+            </div>
+            
+            <div class="all-pm-t">
+             <h2><a href="#">مبادرة الله يعطيك خيرها</a></h2>
+             <div class="pm-st">
+              <div class="pm-star">
+              
+                <ul class="pi-rating">
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-star-half"><i class="fa fa-star-half-empty"></i></li>      
+                <div class="clear"></div>
+                </ul>
+                <span class="nabar-star">4850 تقييم</span>
+                
+              </div>
+              <div class="site">
+                <span>الموقع : (الرياض-جده)</span>
+              </div>
+             </div>
+             <div class="short-content">
+             <p>مبادرة توعوية عن السلامة المرورية اطلقها امير المنطقة تنفذها جمعية الاطفال المعوقين بالتعاون مع الادارة العامة للمرور تنفذ العديد من......<a href="#">اقراء المزيد</a></p>
+             </div>
+            </div>
+            
+            <div class="clear"></div>
+            
+            </div>
+         <div class="post-mobadrh-box">
+            <div class="pm-img">
+             <img src="img/sq.png" />
+            </div>
+            
+            <div class="alhlh Finish">
+             <span>الحاله : منتهية</span>
+            </div>
+            
+            <div class="all-pm-t">
+             <h2><a href="#">مبادرة الله يعطيك خيرها</a></h2>
+             <div class="pm-st">
+              <div class="pm-star">
+              
+                <ul class="pi-rating">
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-star-half"><i class="fa fa-star-half-empty"></i></li>      
+                <div class="clear"></div>
+                </ul>
+                <span class="nabar-star">4850 تقييم</span>
+                
+              </div>
+              <div class="site">
+                <span>الموقع : (الرياض-جده)</span>
+              </div>
+             </div>
+             <div class="short-content">
+             <p>مبادرة توعوية عن السلامة المرورية اطلقها امير المنطقة تنفذها جمعية الاطفال المعوقين بالتعاون مع الادارة العامة للمرور تنفذ العديد من......<a href="#">اقراء المزيد</a></p>
+             </div>
+            </div>
+            
+            <div class="clear"></div>
+            
+            </div>
+         <div class="post-mobadrh-box">
+            <div class="pm-img">
+             <img src="img/sq.png" />
+            </div>
+            
+            <div class="alhlh Finish">
+             <span>الحاله : منتهية</span>
+            </div>
+            
+            <div class="all-pm-t">
+             <h2><a href="#">مبادرة الله يعطيك خيرها</a></h2>
+             <div class="pm-st">
+              <div class="pm-star">
+              
+                <ul class="pi-rating">
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-star-half"><i class="fa fa-star-half-empty"></i></li>      
+                <div class="clear"></div>
+                </ul>
+                <span class="nabar-star">4850 تقييم</span>
+                
+              </div>
+              <div class="site">
+                <span>الموقع : (الرياض-جده)</span>
+              </div>
+             </div>
+             <div class="short-content">
+             <p>مبادرة توعوية عن السلامة المرورية اطلقها امير المنطقة تنفذها جمعية الاطفال المعوقين بالتعاون مع الادارة العامة للمرور تنفذ العديد من......<a href="#">اقراء المزيد</a></p>
+             </div>
+            </div>
+            
+            <div class="clear"></div>
+            
+            </div>
+         <div class="post-mobadrh-box">
+            <div class="pm-img">
+             <img src="img/sq.png" />
+            </div>
+            
+            <div class="alhlh ah-falh">
+             <span>الحاله : فعالة</span>
+            </div>
+            
+            <div class="all-pm-t">
+             <h2><a href="#">مبادرة الله يعطيك خيرها</a></h2>
+             <div class="pm-st">
+              <div class="pm-star">
+              
+                <ul class="pi-rating">
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-star-half"><i class="fa fa-star-half-empty"></i></li>      
+                <div class="clear"></div>
+                </ul>
+                <span class="nabar-star">4850 تقييم</span>
+                
+              </div>
+              <div class="site">
+                <span>الموقع : (الرياض-جده)</span>
+              </div>
+             </div>
+             <div class="short-content">
+             <p>مبادرة توعوية عن السلامة المرورية اطلقها امير المنطقة تنفذها جمعية الاطفال المعوقين بالتعاون مع الادارة العامة للمرور تنفذ العديد من......<a href="#">اقراء المزيد</a></p>
+             </div>
+            </div>
+            
+            <div class="clear"></div>
+            
+            </div>
+         <div class="post-mobadrh-box">
+            <div class="pm-img">
+             <img src="img/sq.png" />
+            </div>
+            
+            <div class="alhlh Finish">
+             <span>الحاله : منتهية</span>
+            </div>
+            
+            <div class="all-pm-t">
+             <h2><a href="#">مبادرة الله يعطيك خيرها</a></h2>
+             <div class="pm-st">
+              <div class="pm-star">
+              
+                <ul class="pi-rating">
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-rating-item"><i class="fa fa-star"></i></li>
+                <li class="pi-star-half"><i class="fa fa-star-half-empty"></i></li>      
+                <div class="clear"></div>
+                </ul>
+                <span class="nabar-star">4850 تقييم</span>
+                
+              </div>
+              <div class="site">
+                <span>الموقع : (الرياض-جده)</span>
+              </div>
+             </div>
+             <div class="short-content">
+             <p>مبادرة توعوية عن السلامة المرورية اطلقها امير المنطقة تنفذها جمعية الاطفال المعوقين بالتعاون مع الادارة العامة للمرور تنفذ العديد من......<a href="#">اقراء المزيد</a></p>
+             </div>
+            </div>
+            
+            <div class="clear"></div>
+            
+            </div>
+            
+<div class="pagination">            
+<ul class="pagination-ul">
+  <li><a href="#" class="prev">السابق</a></li>
+  <li><a href="#">1</a></li>
+  <li> <a href="#">2</a></li>
+  <li> <a href="#">3</a></li>
+  <li> <a href="#" class="active">4</a></li>
+  <li> <a href="#">5</a></li>
+  <li> <a href="#">6</a></li>
+  <li> <a href="#">...</a></li>
+  <li> <a href="#" class="pa-finsh">120</a></li>  
+  <li><a href="#" class="next">التالي</a></li>
+</ul>   
+<div class="clear"></div>
+</div>            
+            
+    </div>
+         
+   
+   <div class="sadbar-mobadrh">
+   
+        <div class="sadbar-box">
+           <div class="sad-tetl si-tet1"><h2>اعدادات</h2></div>
+           
+           <div class="sadbar-content">
+             <div class="tahkm">
+             
+              <div class="select">               
+               <p>التصنيف</p>
+               <select>
+                 <option>غير محدود</option>
+                 <option value="saab">Saab</option>
+                 <option value="opel">Opel</option>
+                 <option value="audi">Audi</option>
+               </select>
+              </div>  
+
+              <div class="select">               
+               <p>تحديد المنطقة</p>
+               <select>
+                 <option>غير محدود</option>
+                 <option value="saab">Saab</option>
+                 <option value="opel">Opel</option>
+                 <option value="audi">Audi</option>
+               </select>
+              </div> 
+              
+              <div class="select">               
+               <p>اضافة اوسمة</p>
+               <select>
+                 <option>غير محدود</option>
+                 <option value="saab">Saab</option>
+                 <option value="opel">Opel</option>
+                 <option value="audi">Audi</option>
+               </select>
+              </div> 
+                         
+             </div>
+           </div>
+        </div>  
+        
+        <div class="sadbar-box">
+           
+           <div class="sadbar-content">
+           
+             <a href="#">
+               <img src="img/ads-300.png" />
+             </a>
+               
+           </div>
+        </div>
+
+        <div class="sadbar-box">
+           
+           <div class="sadbar-content">
+           
+             <a href="#">
+               <img src="img/ads-300.png" />
+             </a>
+               
+           </div>
+        </div>        
+        
+   </div>
+
+  
+ <div class="clear"></div>
+  
+</div>
+
+
+<footer>
+ <div class="footer-top">
+  <div class="all-footer-top">
+  
+  <div class="fo-right">
+    <div class="tabna">
+              <a class="fac" href="#"><i class="fa fa-facebook"></i></a>
+              <a class="twi" href="#"><i class="fa fa-twitter"></i></a>
+              <a class="goo" href="#"><i class="fa fa-google-plus"></i></a>
+              <a class="inst" href="#"><i class="fa fa-instagram"></i></a>
+              <a class="rss" href="#"><i class="fa fa-rss"></i></a>
+          </div>
+  </div>
+  
+  <div class="fo-left">
+           <ul>
+           <li><a href="#">سياسة النشر</a></li>
+           <li><a href="#">اتفاقية الاستخدام</a></li>
+           <li><a href="#">النشر البريدية</a></li>
+           <li><a href="#">اتصال بناء</a></li>
+           </ul>
+  </div>
+  
+  <div class="clear"></div>  
+  </div>  
+  <div class="clear"></div>  
+ </div>
+ <div class="footer-botom">
+ 
+   <div class="bo-bl-ri-logo">
+      <a href="#"><img src="img/logo-foter.png"></a>
+      <span>بوابة الكترونية متخصصة في اطلاق وتوثيق وتقييم المبادرات المجتمعية في المملكة العريبة السعودية</span>
+   </div>
+    
+ </div>
+  
+ 
+</footer>
+
+     <script>
+         $(document).ready(function() {           
+
+			
+      $(".go-rating a").click(function (){
+		$('.pi-add-rating').slideToggle();
+		$('.go-rating .fa-caret-up').slideToggle();
+        $('.andm-box').css('display','none');
+		$('.andm div.fa-caret-up').css('display','none');				
+		
+		
+		 });
+		 
+        $(".andm .andm-a").click(function (){
+		$('.andm-box').slideToggle();
+		$('.andm .fa-caret-up').slideToggle();
+        $('.pi-add-rating').css('display','none');
+		$('.go-rating .fa-caret-up').css('display','none');	
+		 });
+	
+
+
+ 		 });           
+    </script>  
+   
+    <script>
+        $(document).ready(function() {
+            
+            //URL
+            $('.link-url').edbox({
+                addClass: 'example-url',
+                width: 900
+            });
+            
+            //Image
+            $('.link-image').edbox({
+                addClass: 'example-image'
+            });
+            
+            //Success
+            $('.btn-success').edbox({ success: '<i><b>Success</b></i> request!' });
+
+            //Info
+            $('.btn-info').edbox({ info: 'Some text or &lt;html> info!' });
+
+            //Warning
+            $('.btn-warning').edbox({ warning: '<b>Warning</b>, <i>do not go ahead</i>!' });
+
+            //Danger
+            $('.btn-danger').edbox({ danger: 'Sorry,<br>unespected error!' });
+        });
+    </script>
+
+
+
+
+<script>
+$(function () {
+	$('#newsList').newsTicker();
+});
+</script>
+
+
+</body>
+</html>

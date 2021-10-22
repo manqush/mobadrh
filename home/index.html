@@ -1,0 +1,626 @@
+<!doctype html>
+<html>
+<head>
+  
+<meta charset="utf-8">
+<title>home</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0, minimum-scale=1.0, user-scalable=yes">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+
+<link href="css/style.css" rel="stylesheet" />
+<link href="css/banner.css" rel="stylesheet" />
+<link href="css/custom.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/youtube.css" />
+ 
+
+
+
+<script src="js/newsTicker.js"></script>
+<script src="js/banner.js"></script>
+<script src="js/multislider.js"></script>
+<script type="text/javascript" src="js/youtube.js"></script>
+
+
+
+
+</head>
+
+<body>
+  <header>
+
+  <div class="all-left">
+ 
+      <div class="all-width"> 
+        <div class="logo-right">
+    <div class="logo-position">
+   <a href="#"><img src="img/logo.png"/></a>
+    </div> 
+  </div>
+  
+        <div class="blok-top">
+         
+         <div class='bl-t-1'>
+            <nav>
+              <ul>
+                <li class='home-nav'><a href=""><span><i class="fa fa-home"></i></span>الرئيسية</a></li>
+                <li><a href=""><span><i class="fa fa-users"></i></span>من نحن</a></li>
+                <li><a href=""><span><i class="fa fa-pie-chart"></i></span>خدماتنا</a></li>
+                <li><a href=""><span><i class="fa fa-th-large"></i></span>الاخبار</a>
+                <ul>
+                  <li><a href="#">أخر الاخبار</a></li>
+                  <li><a href="#">مقالات</a></li>
+                  <li><a href="#">تقارير</a></li>
+                </ul>  
+                            
+                </li>
+                <li><a href=""><span><i class="fa fa-envelope"></i></span>الرئيسية</a></li>
+
+              </ul>
+            </nav>         
+         </div>
+
+         <div class='bl-t-2'>
+            
+            <div id="recherche">
+             <!-- recherche -->
+               <div class="shea">
+                <form action="/search" id="searchthis" method="get" style="display: inline;">
+                <input id="b-query" maxlength="250" name="q" size="29" type="text"/>
+                <input id="b-searchbtn" type="submit" value=""/>
+                <label for="b-searchbtn" class="heaw fa fa-search"></label>
+                </form>
+               </div>
+            <!-- recherche -->
+            </div>
+            
+         </div>
+         
+         <div class='bl-t-3'>
+           <button class="bl-botm-1">التسجيل</button>
+           <button class="bl-botm-2">الدخول</button>
+         </div>
+         
+      </div>
+      </div>
+            
+      <div class="blok-cantr">
+         <div class="all-grw"> 
+          <h2>احدث الاخبار</h2>
+        
+   <div id="newsData" class="row newsCss"></div>
+<ul id="newsList">
+			<li class="news-item" ><a href="#">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من </a></li>
+			<li class="news-item" ><a href="#">حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى</a></li>
+			<li class="news-item" ><a href="#">ذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد</a></li>
+	</ul>
+	<div class="news-bo" >
+    <input type="button" id="prevDiv" value="Prev" class="btn btn-primary" style="display:none"> 
+    <input type="button" id="nextDiv" value="Next" class="btn btn-primary" style="display:none">
+         <label for="nextDiv" class="nextDiv fa fa-toggle-right"></label>
+    <label for="prevDiv" class="prevDiv fa fa-toggle-left"></label>   
+    </div>
+
+</div>
+     
+        
+         </div>           
+      </div>
+      
+      
+      <div class="blok-down">
+         <div class="all-grw"> 
+            <nav>
+              <ul>
+                <li><a href="#">مبادرات مجتمعية</a></li>
+                <li><a href="#">حملات توعوية</a></li>
+                <li><a href="#">مسؤالية اجتماعية</a></li>
+              </ul>
+            </nav> 
+            
+         </div>     
+       </div>
+        
+        </div>
+      </div>
+      
+  </div>
+ <div class="clear"></div> 
+  </header>
+<div class="all-body">
+
+  <div class="body-blok-right">
+  
+    <div class="bo-bl-ri-asd">
+      <a href="#"><img src="img/asd.png" /></a>
+    </div>
+    
+    <div class="bo-bl-ri-blok1">
+    
+       <div class="bl-ri-box-asd">
+       <a href="#"><img src="img/asd-c90.png" /></a>
+       </div>
+       
+       <div class="bl-ri-box">
+        
+        <div class="icon-border">
+          <div class="icon">
+            <i class="fa fa-send"></i>
+          </div>
+        </div>
+          
+        <h2>مبادرات</h2>
+        
+        <div class="all-icon">
+        
+        <li><a href="#"><i class="fa fa-unlink"></i>جديد</a></li>
+        <li><a href="#"><i class="fa fa-clock-o"></i>قريبا</a></li>
+        <li><a href="#"><i class="fa fa-spinner"></i>ئشيطة</a></li>
+        <li><a href="#"><i class="fa fa-check-square-o"></i>مكتملة</a></li>
+        <li class="almozd"><a href="#">كافة المبادرات</a></li>
+
+        
+        </div>
+        
+       </div>
+          
+       <div class="bl-ri-box box-gre">
+    
+        <div class="icon-border">
+          <div class="icon">
+            <i class="fa fa-joomla"></i>
+          </div>
+        </div>
+          
+        <h2>فكرة مبادرة</h2>
+        
+        <div class="all-icon">
+        
+        <p>
+        اذا كنت من المهتمين بالعمل والنشاط المجتمعي ولديك فكرة مبادرة ترغب في تنفيذها حمل فكرتك من هنا ( نموذج - صورة - فيديو مسجل - صوت )
+        </p>
+
+        
+        </div>
+    
+       </div>  
+
+       <div class="bl-ri-box">
+    
+        <div class="icon-border">
+          <div class="icon">
+            <i class="fa fa-users"></i>
+          </div>
+        </div>
+                 
+        <h2>مبادرات</h2>
+        
+        <div class="all-icon">
+        
+        <li><a href="#"><i class="fa fa-unlink"></i>جديد</a></li>
+        <li><a href="#"><i class="fa fa-clock-o"></i>قريبا</a></li>
+        <li><a href="#"><i class="fa fa-spinner"></i>ئشيطة</a></li>
+        <li><a href="#"><i class="fa fa-check-square-o"></i>مكتملة</a></li>
+        <li class="almozd"><a href="#">كافة المبادرات</a></li>
+
+        
+        </div>
+ 
+<div style="clear"></div>   
+       </div>       
+           
+
+       <div class="bo-bl-ri-blok2">
+    
+    
+       </div>            
+    </div>
+    
+  </div>
+  
+  <div class="body-blok-left">
+  
+       <div class="body-asd-left">
+         <a href="#"><img src="img/asd-c90.png" /></a>
+       </div>
+       
+       <div class="body-left-box1">
+        <h2 class="bo-bo-h2">شركائنا</h2>
+           <div class="banner">
+		<ul class="img">
+			<li><a href=""><img src="img/logo-sadbar.png" alt=""><span>وزارة التربية والتعليم في السعوديه</span></a></li>
+			<li><a href=""><img src="img/logo-sadbar2.png" alt=""><span>هذا النص تجريبي فقط مثل لنص</span></a></li>
+			<li><a href=""><img src="img/logo-sadbar.png" alt=""><span>وزارة التربية والتعليم في السعوديه</span></a></li>
+			<li><a href=""><img src="img/logo-sadbar2.png" alt=""><span>هذا النص تجريبي فقط مثل لنص</span></a></li>
+			<li><a href=""><img src="img/logo-sadbar.png" alt=""><span>وزارة التربية والتعليم في السعوديه</span></a></li>
+			<li><a href=""><img src="img/logo-sadbar2.png" alt=""><span>هذا النص تجريبي فقط مثل لنص</span></a></li>
+			<li><a href=""><img src="img/logo-sadbar.png" alt=""><span>وزارة التربية والتعليم في السعوديه</span></a></li>
+			<li><a href=""><img src="img/logo-sadbar2.png" alt=""><span>هذا النص تجريبي فقط مثل لنص</span></a></li>
+			<li><a href=""><img src="img/logo-sadbar.png" alt=""><span>وزارة التربية والتعليم في السعوديه</span></a></li>
+			<li><a href=""><img src="img/logo-sadbar2.png" alt=""><span>هذا النص تجريبي فقط مثل لنص</span></a></li>
+			<li><a href=""><img src="img/logo-sadbar.png" alt=""><span>وزارة التربية والتعليم في السعوديه</span></a></li>
+
+		</ul>
+		
+		<div class="left btn"><i class="fa fa-angle-double-left"></i></div>
+		<div class="right btn"><i class="fa fa-angle-double-right"></i></div>
+        
+        <div class="clear"></div>
+     	</div>
+  
+      </div>
+       
+       
+       <div class="body-left-box1 void-bx">
+        <h2 class="bo-bo-h2"><span class="vide-mor"><a href="#">المزيد</a></span>احدث الفيديوهات</h2>
+       
+            <div id="mList">
+              <a href="https://www.youtube.com/watch?v=Rtlzq_uKlBQ" style="background: url('img/1.jpg')">
+            <div><i class="fa fa-play-circle-o"></i></div>
+              </a>
+
+            </div>
+            <div id="mPlayer">
+              <div> </div>
+            </div>
+         
+</div> 
+
+  </div>  
+
+  <div class="body-blok-down">
+  
+     <div class="bo-down-blok1">
+     
+       <div class="mobadrat mob-1">
+         
+         <div class="mob-icon">
+           <i class="fa fa-pie-chart"></i>
+         </div>
+         
+         <div class="mob-nember">
+           <span>عدد المبادرات</span>
+         </div>
+         
+         <div class="mob-nember1">
+           <span>1250</span>
+         </div>   
+         
+         <div class="mob-border"></div> 
+         
+                <div class="mob-icon">
+           <i class="fa fa-clock-o"></i>
+         </div>
+         
+         <div class="mob-nember">
+           <span>بقي على اطلاق مبادرة</span>
+         </div>
+         
+         <div class="mob-nember1">
+           <span>5 أيام</span>
+         </div> 
+               
+         
+       </div>
+       <div class="mobadrat mob-2">
+       
+           
+         <div class="mob-icon">
+           <i class="fa fa-star"></i>
+         </div>
+         
+         <div class="mob-nember">
+           <span>المبادرات الاعلى تقييما</span>
+         </div>
+         
+         <div class="mob-nember1">
+         </div> 
+         
+         <ul>
+           <li><a href="#">مبادرة سامر</a></li>
+           <li><a href="#">مبادرة محمد</a></li>
+           <li><a href="#">مبادرة عبدالله</a></li>
+           <li><a href="#">مبادرة عامر</a></li>
+           <li><a href="#">مبادرة عامر</a></li>
+           <li><a href="#">مبادرة سامر</a></li>
+         </ul>
+
+<div class="clear"></div>       
+       
+       </div>
+       <div class="mobadrat mob-3">
+       
+           <div class="mob-icon">
+           <i class="fa fa-user-plus"></i>
+         </div>
+         
+         <div class="mob-nember">
+           <span>الاعضاء الاكثر نشاطا</span>
+         </div>
+         
+         <div class="mob-nember1">
+         </div> 
+         
+         <ul>
+           <li><a href="#">مبادرة سامر</a></li>
+           <li><a href="#">مبادرة محمد</a></li>
+           <li><a href="#">مبادرة عبدالله</a></li>
+           <li><a href="#">مبادرة عامر</a></li>
+           <li><a href="#">مبادرة عامر</a></li>
+           <li><a href="#">مبادرة سامر</a></li>
+         </ul>
+         
+ <div class="clear"></div>       
+      
+       </div>
+       <div class="mobadrat mob-4">
+         
+          <div class="mob-icon">
+           <i class="fa fa-refresh"></i>
+         </div>
+         
+         <div class="mob-nember">
+           <span>مبادرات نشطه حاليا</span>
+         </div>
+         
+         <div class="mob-nember1">
+         </div> 
+         
+         <ul>
+           <li><a href="#">مبادرة سامر</a></li>
+           <li><a href="#">مبادرة محمد</a></li>
+           <li><a href="#">مبادرة عبدالله</a></li>
+           <li><a href="#">مبادرة عامر</a></li>
+           <li><a href="#">مبادرة عامر</a></li>
+           <li><a href="#">مبادرة سامر</a></li>
+         </ul>
+ 
+ <div class="clear"></div>       
+       
+       </div>       
+       
+<div class="clear"></div>       
+     </div>
+     
+     <div class="bo-down-blok2">
+       
+ 
+         <div id="exampleSlider1">
+       <div class="MS-content">
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/1.jpg" />
+               <div  class="item-tetl">
+               <h2>هده النص تجربي فقط لتجربة النص</h2></a>
+               </div>
+           </div>
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/2.jpg" />
+               <div  class="item-tetl">
+               <h2>هده النص تجربي فقط لتجربة النص</h2></a>
+               </div>
+               
+            </div>
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/3.jpg" />
+               <div  class="item-tetl">
+               <h2>هده النص تجربي فقط لتجربة النص</h2></a>
+               </div>
+               </div>
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/1.jpg" />
+               <div  class="item-tetl">
+               <h2>هده النص تجربي فقط لتجربة النص</h2></a>
+               </div>
+           </div>
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/2.jpg" />
+               <div  class="item-tetl">
+               <h2>هده النص تجربي فقط لتجربة النص</h2></a>
+               </div>
+           </div>
+           <div class="item">
+               <a  href="#"class="item-img"><img src="img/3.jpg" />
+               <div  class="item-tetl">
+               <h2>هده النص تجربي فقط لتجربة النص</h2></a>
+               </div>
+            </div>
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/1.jpg" />
+               <div  class="item-tetl">
+               <h2>هده النص تجربي فقط لتجربة النص</h2></a>
+               </div>
+           </div>
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/2.jpg" />
+               <div  class="item-tetl">
+               <h2>هده النص تجربي فقط لتجربة النص</h2></a>
+               </div>
+           </div>
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/2.jpg" />
+               <div  class="item-tetl">
+               <h2>هده النص تجربي فقط لتجربة النص</h2></a>
+               </div>
+           </div>
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/2.jpg" />
+               <div  class="item-tetl">
+               <h2>هده النص تجربي فقط لتجربة النص</h2></a>
+               </div>
+           </div>                                                                             
+       </div>
+       <div class="MS-controls">
+           <button class="MS-left"><i class="fa fa-angle-double-left" aria-hidden="true"></i></button>
+           <button class="MS-right"><i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+       </div>
+   </div>
+
+    
+        
+     </div>
+     
+     <div class="bo-down-blok3">
+         <div class="bo-doright">
+          <h2 class="bo-bo-h2"><span class="vide-mor"><a href="#">تابع</a></span>التغريدات</h2>
+    
+    <div style="overflow: auto;height: 139px;">
+ <a class="twitter-timeline" data-lang="ar" data-dnt="true" data-link-color="#981CEB" href="https://twitter.com/abduallah78901">Tweets by abduallah78901</a>
+ <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>      
+         
+         </div>
+         <div class="bo-dolifte">
+         
+                  <h2 class="bo-bo-h2"><span class="vide-mor"><a href="#">المزيد</a></span>اخر المبدارات المضافة</h2>
+      
+       
+ 
+         <div id="exampleSlider2">
+       <div class="MS-content">
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/1.jpg" /></a>
+               <div  class="item-tetl">
+                <a href="#"><h2>مبادره TBS</h2></a>
+               </div>
+           </div>
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/2.jpg" /></a>
+               <div  class="item-tetl">
+                <a href="#"><h2>مبادره TBS</h2></a>
+               </div>
+               
+            </div>
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/3.jpg" /></a>
+               <div  class="item-tetl">
+                <a href="#"><h2>مبادره TBS</h2></a>
+               </div>
+               </div>
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/1.jpg" /></a>
+               <div  class="item-tetl">
+                <a href="#"><h2>مبادره TBS</h2></a>
+               </div>
+           </div>
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/2.jpg" /></a>
+               <div  class="item-tetl">
+                <a href="#"><h2>مبادره TBS</h2></a>
+               </div>
+           </div>
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/3.jpg" /></a>
+               <div  class="item-tetl">
+                <a href="#"><h2>مبادره TBS</h2></a>
+               </div>
+            </div>
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/1.jpg" /></a>
+               <div  class="item-tetl">
+                <a href="#"><h2>مبادره TBS</h2></a>
+               </div>
+           </div>
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/2.jpg" /></a>
+               <div  class="item-tetl">
+                <a href="#"><h2>مبادره TBS</h2></a>
+               </div>
+           </div>
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/2.jpg" /></a>
+               <div  class="item-tetl">
+                <a href="#"><h2>مبادره TBS</h2></a>
+               </div>
+           </div>
+           <div class="item">
+               <a href="#" class="item-img"><img src="img/2.jpg" /></a>
+               <div  class="item-tetl">
+                <a href="#"><h2>مبادره TBS</h2></a>
+               </div>
+
+       </div>
+        </div>
+       <div class="MS-controls">
+           <button class="MS-left"><i class="fa fa-angle-double-left" aria-hidden="true"></i></button>
+           <button class="MS-right"><i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+       </div>
+   </div>
+
+    
+        
+     </div>
+                 
+                  
+                  
+         </div>
+     </div>     
+  </div>
+  
+ <div class="clear"></div>
+  
+</div>
+
+<footer>
+ <div class="footer-top">
+  <div class="all-footer-top">
+  
+  <div class="fo-right">
+    <div class="tabna">
+              <a class="fac" href="#"><i class="fa fa-facebook"></i></a>
+              <a class="twi" href="#"><i class="fa fa-twitter"></i></a>
+              <a class="goo" href="#"><i class="fa fa-google-plus"></i></a>
+              <a class="inst" href="#"><i class="fa fa-instagram"></i></a>
+              <a class="rss" href="#"><i class="fa fa-rss"></i></a>
+          </div>
+  </div>
+  
+  <div class="fo-left">
+           <ul>
+           <li><a href="#">سياسة النشر</a></li>
+           <li><a href="#">اتفاقية الاستخدام</a></li>
+           <li><a href="#">النشر البريدية</a></li>
+           <li><a href="#">اتصال بناء</a></li>
+           </ul>
+  </div>
+  
+  <div class="clear"></div>  
+  </div>  
+  <div class="clear"></div>  
+ </div>
+ <div class="footer-botom">
+ 
+   <div class="bo-bl-ri-logo">
+      <a href="#"><img src="img/logo-foter.png"></a>
+      <span>بوابة الكترونية متخصصة في اطلاق وتوثيق وتقييم المبادرات المجتمعية في المملكة العريبة السعودية</span>
+   </div>
+    
+ </div>
+  
+ 
+</footer>
+
+    <script>
+	
+        $('#exampleSlider1').multislider({interval: 2500});
+		
+        $('#exampleSlider2').multislider({
+            interval: 3000,
+            duration: 1500
+        });
+		
+    </script>
+   
+
+
+
+<script>
+$(function () {
+	$('#newsList').newsTicker();
+});
+</script>
+
+
+</body>
+</html>

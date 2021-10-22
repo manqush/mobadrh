@@ -1,0 +1,208 @@
+.bo-down-blok2 .item-img img{
+	width:100%;	
+	}
+#exampleSlider1 {
+  position: relative;
+}
+.bo-down-blok2 .item-tetl{
+    white-space: normal;
+    text-align: center;	
+	}
+.bo-down-blok2 .item-tetl *{
+    direction: rtl;
+   }	
+@media (max-width: 767px) {
+  #exampleSlider1 {
+    border-color: transparent;
+  }
+}
+#exampleSlider1 .MS-content {
+  margin: 15px 5%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+@media (max-width: 767px) {
+  #exampleSlider1 .MS-content {
+    margin: 0;
+  }
+}
+#exampleSlider1 .MS-content .item {
+    display: inline-block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    width: 23%;
+    margin: 0 8px;
+}
+@media (max-width: 1200px) {
+  #exampleSlider1 .MS-content .item {
+    width: 25%;
+  }
+}
+@media (max-width: 992px) {
+  #exampleSlider1 .MS-content .item {
+    width: 33.3333%;
+  }
+}
+@media (max-width: 767px) {
+  #exampleSlider1 .MS-content .item {
+    width: 50%;
+  }
+}
+#exampleSlider1 .MS-content .item p {
+  font-size: 30px;
+  text-align: center;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0;
+  padding: 10px 0;
+}
+#exampleSlider1 .MS-controls button {
+    position: absolute;
+    border: none;
+    background: rgba(255, 255, 255, 0);
+    font-size: 30px;
+    outline: 0;
+    top: 39%;
+    background: #70be47;
+    color: #fff;
+    padding: 3px 9px;
+    line-height: 29px;
+    border-radius: 4px;
+}
+@media (max-width: 767px) {
+  #exampleSlider1 .MS-controls button {
+    display: none;
+  }
+}
+#exampleSlider1 .MS-controls button:hover {
+  cursor: pointer;
+}
+#exampleSlider1 .MS-controls .MS-left {
+  left: 10px;
+}
+@media (max-width: 992px) {
+  #exampleSlider1 .MS-controls .MS-left {
+    left: -2px;
+  }
+}
+#exampleSlider1 .MS-controls .MS-right {
+  right: 10px;
+}
+@media (max-width: 992px) {
+  #exampleSlider1 .MS-controls .MS-right {
+    right: -2px;
+  }
+}
+
+
+/*slaid the two*/
+#exampleSlider2 .MS-content {
+  height: 109px;	
+  }
+.bo-dolifte .item-img img{
+	width:100%;	
+	}
+#exampleSlider2 {
+  position: relative;
+}
+.bo-dolifte .item-tetl{
+    white-space: normal;
+    text-align: center;	
+	}
+.bo-dolifte #exampleSlider2 *{
+    direction: ltr;
+   }	
+.bo-dolifte .item-tetl *{
+    direction: rtl;
+   }	
+@media (max-width: 767px) {
+  #exampleSlider2 {
+    border-color: transparent;
+  }
+}
+#exampleSlider2 .MS-content {
+  margin: 15px 5%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+@media (max-width: 767px) {
+  #exampleSlider2 .MS-content {
+    margin: 0;
+  }
+}
+#exampleSlider2 .MS-content .item {
+    display: inline-block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    width: 22%;
+    margin: 0 8px;
+}
+@media (max-width: 1200px) {
+  #exampleSlider2 .MS-content .item {
+    width: 25%;
+height: 109px;	
+  }
+}
+@media (max-width: 992px) {
+  #exampleSlider2 .MS-content .item {
+    width: 33.3333%;
+  }
+}
+@media (max-width: 767px) {
+  #exampleSlider2 .MS-content .item {
+    width: 50%;
+  }
+}
+#exampleSlider2 .MS-content .item p {
+  font-size: 30px;
+  text-align: center;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0;
+  padding: 10px 0;
+}
+#exampleSlider2 .MS-controls button {
+    position: absolute;
+    border: none;
+    background: rgba(255, 255, 255, 0);
+    font-size: 30px;
+    outline: 0;
+    top: 29%;
+    background: #70be47;
+    color: #fff;
+    padding: 0px 6px;
+    line-height: 29px;
+    border-radius: 4px;
+}
+@media (max-width: 767px) {
+  #exampleSlider2 .MS-controls button {
+    display: none;
+  }
+}
+#exampleSlider2 .MS-controls button:hover {
+  cursor: pointer;
+}
+#exampleSlider2 .MS-controls .MS-left {
+  left: 10px;
+}
+@media (max-width: 992px) {
+  #exampleSlider2 .MS-controls .MS-left {
+    left: -2px;
+  }
+}
+#exampleSlider2 .MS-controls .MS-right {
+  right: 10px;
+}
+@media (max-width: 992px) {
+  #exampleSlider2 .MS-controls .MS-right {
+    right: -2px;
+  }
+}
+
+
+
+
